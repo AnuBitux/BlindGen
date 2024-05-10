@@ -15,6 +15,11 @@ import bitcash
 from bitcash import Key
 
 
+# Change Working Directory for AnuBitux environment
+user_folder = os.getlogin()
+os.chdir('/home/' + user_folder + '/Documents/')
+
+
 # Obtain secure random numbers
 system_random = random.SystemRandom()
 # Global variables
