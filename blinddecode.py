@@ -12,6 +12,12 @@ import pdfkit
 from os.path import exists
 import subprocess
 
+
+# Change Working Directory for AnuBitux environment
+user_folder = os.getlogin()
+os.chdir('/home/' + user_folder + '/Documents/')
+
+
 # Global variables
 string1 = None
 string2 = None
