@@ -199,7 +199,7 @@ class ThirdWindow:
         self.button2.pack()
 
         # Closes the tool
-        self.button3 = tk.Button(master, text="Close", command=self.close_all, bg="black", fg="blue")
+        self.button3 = tk.Button(master, text="Close", command=self.close_all, bg="black", fg="red")
         self.button3.pack()
 
 
