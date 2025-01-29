@@ -1,5 +1,5 @@
 tk
-hdwallet
+hdwallet==2.2.1
 monero
 qrcode
 pdfkit
